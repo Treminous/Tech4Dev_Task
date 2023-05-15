@@ -51,7 +51,10 @@
             }
         }
         console.log( skillCheckedValue);
-        //var output= document.getElementById("#output").innerHTML=result;
+     //value from text area
+     var textArea=document.querySelector("#content");
+     var value=textArea.value;
+     console.log(value);
        
        
         
