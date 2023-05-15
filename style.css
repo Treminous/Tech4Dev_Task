@@ -1,0 +1,12 @@
+
+
+body{
+    background-color: #fcfc;
+}
+form{
+    max-width: 500px;
+    background-color: lawngreen;
+    margin: 58px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(red, green, blue, alpha);
+}

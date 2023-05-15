@@ -8,15 +8,17 @@
   
      <link rel="stylesheet" href="style.css">
      
+     
     
 </head>
 <body>
     <h1>Tech4Dev Survey Form</h1>
-    <form >
+    <form  id="form">
         <div class="form-control">
-            <label for="name">Name</label>
-            <input type="text" id="fname" placeholder="Enter your name"><br><br>
+            <label for="fname">Name</label>
+            <input type="text" id="fname" placeholder="Enter your name" ><br><br>
             </div><br><br>
+            
             <div class="form-control">
             <label for="phone">Phone Number</label>
             <input type="number" id="phone" placeholder="Enter your phone Number">
@@ -47,9 +49,9 @@
         <div class="form-control">
             <label > Would you recommend Mary for women Leader</label>
             <label for="recommend">Recommend</label><br><br>
-            <input type="radio" name="recommend " id="Recommend-1" >Yes</input>
-            <input type="radio" name="recommend " id="Recommend-2">No</input>
-            <input type="radio" name="recommend " id="Recommend-3">Maybe</input>
+            <input type="radio" name="recommend " id="recommend-1"  value="Yes">Yes</input>
+            <input type="radio" name="recommend " id="recommend-2" value="No">No</input>
+            <input type="radio" name="recommend " id="recommend-3" value="Maybe">Maybe </input>
         </div>
         <div class="form-control">
             <label for="languages">Programming Languages & frameworks</label><br><br>
@@ -61,11 +63,20 @@
            <label ><input type="checkbox" name="box">Node.Js
            </label><br><br>
            <textarea name="content" id="content" cols="30" rows="10"></textarea><br><br>
-           <button type="submit" name="submit" value="submit" id="button">submit
+           <input type="submit" id="myButton" value="submit"  > 
+           <div class="form-control">
+            <p id="output"></p>
+           </div>
             
-           
+         
 
     </form>
-    <script src="survey.js"></script>
+    
+    
+    
+
+    
+ <script src="survey.js"></script> 
 </body>
+
 </html>
