@@ -32,22 +32,29 @@
         {
             console.log(recommendTwo.value);
         }
-        else{
+        else  {
             console.log(recommendThree.value);
         }
-        
-         
-        
-        // if(recommend[1]==recommendTwo)
-        // {
-        //     console.log(recommendTwo);
-        // }
-        // else{
-        //     console.log(recommendThree);
-        // }
 
-        // // var textArea=document.querySelector('#content').value;
-        // // console.log(textArea);
+        
+        //checkbox
+      
+       
+        var skillLength=document.myform.box.length;
+        var skillCheckedValue="";
+        for (i=0; i<skillLength; i++)
+        {
+            var skillChecked=document.myform.box[i].checked;
+            if(skillChecked)
+            {
+                skillCheckedValue+=document.myform.box[i].value + ",";
+            }
+        }
+        console.log( skillCheckedValue);
+        //var output= document.getElementById("#output").innerHTML=result;
+       
+       
+        
         
 
     })
