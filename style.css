@@ -1,11 +1,11 @@
 
 
 body{
-    background-color: #fcfc;
+    background-color: rgba(1, 19, 1, 0.8);
 }
-form{
+#form{
     max-width: 500px;
-    background-color: lawngreen;
+    background-color: rgb(247, 249, 252);
     margin: 58px auto;
     padding: 30px 20px;
     box-shadow: 2px 5px 10px rgba(red, green, blue, alpha);

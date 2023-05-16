@@ -6,18 +6,18 @@
     form.addEventListener('submit', function(event)
     {
         event.preventDefault()
-        var username=document.querySelector('#fname').value;
-        console.log(username);
-        var phone=document.querySelector('#phone').value;
-        console.log(phone);
+        var fname=document.querySelector('#fname').value;
+        console.log(`Name:  ${fname}`);
+        var phones=document.querySelector('#phone').value;
+        console.log(`Contact:  ${phones}`);
         var email=document.querySelector('#email').value;
-        console.log(email);
+        console.log(`Email:  ${email}`);
         var age=document.querySelector('#age').value;
-        console.log(age);
+        console.log(`Age:  ${age}`);
         var country=document.querySelector('#country').value;
-        console.log(country);
+        console.log(`Country:  ${country}`);
         var role=document.querySelector('#role').value;
-        console.log(role);
+        console.log(`Role:  ${role}`);
         
         //var recommend=document.getElementsByName("recommend").value;
         var recommendOne=document.querySelector('#recommend-1');
